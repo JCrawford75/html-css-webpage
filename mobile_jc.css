@@ -3,19 +3,11 @@
 /*
     
    Author: Jim Crawford
-   Date:   3/13/2023
+   Date:   5/3/2023
    Filename: mobile_jc.css
 
 */
 
-header {
-   width: 100%;
-}
-
-body {
-   display: flex;
-   flex-flow: column nowrap;
-}
 
 @media only screen and (max-width: 500px) {
    

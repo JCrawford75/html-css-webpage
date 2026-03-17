@@ -3,14 +3,14 @@
 <head>
    <!--
            Author: Jim Crawford
-		   Date:   3/13/2023
+		   Date:  5/3/2023
 		   Filename: about.html
     -->
    
    <title>Jim Crawford:About</title>
    <meta charset="utf-8" >
    <meta name="viewport" content="width=device-width, initial-scale=1" >
-   <link href="midtermlayout_jc.css" rel="stylesheet" >
+   <link href="finallayout_jc.css" rel="stylesheet" >
    <link href="mobile_jc.css" rel="stylesheet" >
    <link href="debug_jc.css" rel="stylesheet" >
    
@@ -33,17 +33,30 @@
 	 </nav>
     <section>
 		<article>
-		<p>Not much to say about me. Returning college student,
-		husband, father of 4. My hobbies include gaming, computer
-		repair, and writing.</p>
-		<p>last updated: 3/13/2023</p>
-		
+		<p>Father, Husband, Student studying Software development.
+		   First year student at Mountain Empire Community College.
+		   Hoping to break into the software industry and change my
+		   life path for the better.</p>
+		<div class="formRow">
+				<label for="dish">What brought you to my page?</label>
+				<input name="favDish" id="dish" type="text" list="dishType" />
+				
+				<datalist id="dishType">
+					<option value="I'm your Professor!">
+					<option value="I'm a student like you.">
+				</datalist>
+		</div>
+		<div id="buttons">
+			<input type="submit" value="Submit" />
+			<input type="reset" value="Cancel" />
+		</div>
 		</article>
 	</section>
    
    <footer>
+    <p>last updated: 5/3/2023</p>
     <address>
-	Contact: <a href="mailtojdc2041@email.vccs.edu">Jim Crawford</a> &#8226; 123 Mockingbird Lane &#8226; 
+	Contact: <a href="mailto:jdc2041@email.vccs.edu">Jim Crawford</a> &#8226; 123 Mockingbird Lane &#8226; 
 	Virginia &#8226; <a href="tel:555.555.5515">555-555.5515</a>
 	</address>
    </footer>
