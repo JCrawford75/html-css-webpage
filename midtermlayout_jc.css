@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/*
+   Author: Jim Crawford
+   Date:   3/13/2023
+   
+   Filename: midtermlayout_jc.css
+
+*/
+
+body {
+   font-family: "sans-serif", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+ul {
+   font-family: Jenson, "Century Schoolbook L", "Times New Roman", "serif";
+   text-decoration: bold;
+   text-align: center;
+   border-radius: 10%;
+   margin: 15px 5px;
+   background-color:rgba(175,129,131,1.00);
+   padding: 5px;
+}
+
+
+
+
+li {
+   list-style-type: none;
+}
+
+nav.horizontal {
+   text-align: center;
+   border-radius: 10%;
+   background-color:rgba(154,20,23,1.00);
+   height: 30px;
+}
+
+nav.horizontal a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+nav.horizontal a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav.horizontal a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+nav.vertical ul {
+   line-height: 2em;
+   
+}
+
+article p {
+   font-size: 1.2em;
+   font-family: Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+   color: black;
+}
+
+
+body aside {
+	margin-top: 50px;
+	text-decoration: none;
+	color: black;
+}
+
+a {
+   text-decoration: none;
+ 
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+p img {
+	width: 80%;
+}
+footer {
+	border-radius: 10%;
+   text-align: center;
+   color: white;
+   font-size: 1em;
+   height: 30px;
+   line-height: 30px;
+   text-decoration: none;
+   background-color:rgba(154,20,23,1.00);   
+   opacity: 98%
+}
